@@ -3,7 +3,7 @@ export class GuiModel {
 
     private _guiModel = {
         "application": {
-            "title": "Path Example App",
+            "title": "Path-Framework-BSC-Mart",
             "formList": [
                 {
                     "id": "PersonForm",
@@ -471,6 +471,13 @@ export class GuiModel {
                             "name": "Contacts",
                             "icon": "fa-user",
                             "color": "blue",
+                            "page": "contactspage",
+                        }, 
+                        {
+                            "type": "button",
+                            "name": "TEST",
+                            "icon": "fa-user",
+                            "color": "red",
                             "page": "contactspage",
                         },
                         {
